@@ -12,7 +12,7 @@ def enviar_codigo(update: Update, context: CallbackContext):
     update.message.reply_text(f"Tu código es: {codigo}")
 
 def main():
-    updater = Updater(TOKEN, use_context=True)
+    updater = Updater(TOKEN)
 
     # Añadir manejadores de comandos
     updater.dispatcher.add_handler(CommandHandler("start", start))
