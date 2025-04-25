@@ -1,0 +1,1 @@
+worker: python tu_script.py
