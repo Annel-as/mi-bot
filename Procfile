@@ -1,1 +1,1 @@
-worker: python tu_script.py
+webr: python app.py
